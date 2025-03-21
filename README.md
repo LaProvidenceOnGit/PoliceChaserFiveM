@@ -1,7 +1,8 @@
-Police Chase Script
+#Police Chase Script
 
 This script is designed to simulate a police chase in a game environment, allowing players to experience a high-speed pursuit with varying difficulty levels. The script spawns a police vehicle and driver, who will chase the player based on the selected difficulty. The chase includes visual and audio effects to enhance the experience.
-Features
+
+##Features
 
     Dynamic Difficulty Levels: Choose from easy, medium, or hard to adjust the speed and aggression of the police.
 
@@ -13,8 +14,8 @@ Features
 
     Customizable Police Vehicle: The police car is equipped with upgrades and visual extras.
 
-Usage
-Commands
+#Usage
+##Commands
 
     Start a Chase: Use the /chase command followed by the desired difficulty level (easy, medium, or hard).
     plaintext
@@ -30,7 +31,7 @@ Commands
 
     /reset
 
-Difficulty Settings
+##Difficulty Settings
 
     Easy: The police car has moderate speed and power.
 
@@ -38,9 +39,9 @@ Difficulty Settings
 
     Hard: The police car is extremely fast and highly aggressive.
 
-In-Game Messages
+##In-Game Messages
 
-The script provides real-time feedback through in-game messages, such as:
+##The script provides real-time feedback through in-game messages, such as:
 
     "Police approaching! Chase starts in 3 seconds..."
 
@@ -48,8 +49,8 @@ The script provides real-time feedback through in-game messages, such as:
 
     "You've been caught by the police! Sirens blaring..."
 
-Script Details
-Key Functions
+##Script Details
+##Key Functions
 
     SpawnPoliceCar(): Spawns the police vehicle and driver, sets up the vehicle's appearance, and prepares for the chase.
 
@@ -59,13 +60,13 @@ Key Functions
 
     ResetChase(): Cleans up the chase by removing the police vehicle, driver, and blip.
 
-Utility Functions
+##Utility Functions
 
     LoadModel(modelHash): Ensures the specified model is loaded before spawning.
 
     ShowMessageInGame(message): Displays a message on the player's screen.
 
-Configuration
+#Configuration
 
 The difficultySettings table allows you to customize the behavior of the police chase:
 lua
